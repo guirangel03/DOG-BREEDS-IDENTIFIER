@@ -2,9 +2,9 @@
 Exploring the dataset Oxford IIIT Dogs with 3 classification ML algorithims
 
 Como projeto final da disciplina Inteligência Artificial, este trabalho servirá como consolidações de conceitos teoricos e implementação prática relativas ao Machine Learning.
+O desafio lançado consiste em aplicar algoritmos de machine learning em problemas reais. Nesse sentido, em um dataset escolhido, serão implementados 3 desses modelos de algoritmo a fim de analisar seus comportamento e desempenho.
 
-Etapas de execução:
-#Preparação
+# Preparação
 -Importar o dataset localizado no kaggle https://www.kaggle.com/datasets/imbikramsaha/dog-breeds/code;
 -Importar e instalar bibliotecas necessárias;
 -Localizar diretório de arquivos;
@@ -14,7 +14,7 @@ Etapas de execução:
 -Codificar variáveis categoricamente, definir ID de 0 a 24 para as 25 imagens;
 -Exploração e análise de dados prévia;
 
-#Implementação dos 3 algoritmos
+# Implementação dos 3 algoritmos
 -Splitting, divisão do dataset;
 -Cross-validation para avaliar melhores hiperparâmetros;
 -Treinar o modelo com estes hiperparâmetros ideais;
@@ -22,12 +22,12 @@ Etapas de execução:
 -Plotar matriz de confusão a fim de analisar previsto X realizado em cada categoria;
 -Calcular e comparar métricas de desempeno entre os 3 algoritmos(Acurácia, F1-Score, RMSE, MAE);
 
-#Redução de dimensionalidade
+# Redução de dimensionalidade
 -Tratar o algoritmo mais bem-sucedido;
 -Aplicar LDA para redução de dimensionalidade no SVM;
 -Repetir modelo de implementação do algoritmo;
 -Comparar métricas do modelo original e com LDA;
 
 
-CONFIRA O CÓDIGO NO COLAB:
+# CONFIRA O CÓDIGO NO COLAB:
 https://colab.research.google.com/drive/1ZJxqJSm9RNwg5AyJsMkFRlE7W0Bs2vpo?usp=sharing
